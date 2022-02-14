@@ -15,7 +15,7 @@ function Demo2(){
 
     const handelSubmit=(event)=>{
         event.preventDefault();
-        const user = email +" "+password ;
+        const user = "Email " + email +" Password "+ password ;
         console.log(user);
     }
     return(
